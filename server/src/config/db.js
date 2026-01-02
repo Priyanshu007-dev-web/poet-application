@@ -1,5 +1,6 @@
 import mongoose from "mongoose";
-import { MONGODB_URL } from "../utils/contants.js";
+import { MONGODB_URL } from "../contants.js";
+// import { MONGODB_URL } from "../utils/contants.js";
 
 
 const connectDB = async () => {
